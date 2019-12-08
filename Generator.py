@@ -29,7 +29,7 @@ class Generator:
         valid = False
         if self.format_out == 'word':
             valid = text.isascii() and self.min_length < len(text) < self.max_length
-        elif self.format_out = 'line':
+        elif self.format_out == 'line':
             valid = text.isascii() and self.min_length < len(text) < self.max_length
 
         return valid
