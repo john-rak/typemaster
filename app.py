@@ -1,9 +1,19 @@
 # script to add words to pickled dictionary
 
+#internal imports
+import TextGenerator
+import UI
+import StatsTracker
+
 import os
 from collections import defaultdict
 import random
 import pickle
+
+test_Generator = TextGenerator()
+test_UI = UI()
+test_StatsTracker = StatsTracker()
+
 
 
 def run_basic(wordlist):

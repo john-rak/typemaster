@@ -1,6 +1,6 @@
 import os
 
-class Generator:
+class TextGenerator:
 
     directory = any
     format_out = any

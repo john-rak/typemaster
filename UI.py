@@ -1,4 +1,3 @@
-import generator
 
 
 class UI:
